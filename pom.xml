@@ -25,9 +25,9 @@
 	<sonar.junit.reportPath>${project.basedir}/../target/surefire-reports/*.xml</sonar.junit.reportPath>
 </properties> 
 <scm>
-		<connection>scm:git:C:/Kishore/Repos/centrepoint.git</connection>
-        <developerConnection>scm:git:C:/Kishore/Repos/centrepoint.git</developerConnection>
-        <url>git:C:/Kishore/Repos/centrepoint.git</url>
+		<connection>scm:git:https://github.com/kishorech816/Centrepoint.git</connection>
+        <developerConnection>scm:git:https://github.com/kishorech816/Centrepoint.git</developerConnection>
+        <url>https://github.com/kishorech816/Centrepoint.git</url>
 </scm>
 
 
@@ -150,7 +150,7 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<version>2.5.2</version>
 				<configuration>
-					<tagBase>C:\Kishore\Repos\centrepoint.git</tagBase>
+					<tagBase>https://github.com/kishorech816/Centrepoint.git</tagBase>
 				</configuration>
 				</plugin>
 <plugin> 
